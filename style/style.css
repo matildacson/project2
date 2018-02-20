@@ -1,0 +1,174 @@
+body {
+font-family: "Helvetica Neue", Helvetica, Arial;
+width: 100%
+height: 500px;
+position: relative;
+background: #000;
+}
+
+#wave1, #wave2, #wave3, #wave4, #analyticTrail{
+background: #101010;
+border-color: #101010;
+}
+
+#canvas{
+}
+
+#canvas-svg {
+}
+
+#parallellChart {
+padding-left: 20px;
+}
+
+#header{
+width:100%;
+}
+#mapDiv{
+padding-left:20px;
+}
+
+svg {
+font: 12px;;
+font-family: Futura;
+}
+
+.background path {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.foreground path {
+fill: none;
+stroke: #88ED78;
+
+}
+
+.brush .extent {
+fill-opacity: .3;
+stroke: #fff;
+shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+cursor: move;
+}
+
+.row{
+padding-left: 50px;
+}
+.land {
+  fill: #222;
+}
+
+.boundary {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+#tooltip-container {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+#tooltip-container2 {
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border: 1px solid;
+  display: none;
+}
+
+#charts{
+padding-left: 30px;
+}
+
+.tooltip_key {
+  font-weight: normal;
+}
+
+.tooltip_value {
+  margin-left: 20px;
+  float: right;
+}
+
+.financialChart div{
+margin:2px;
+font-family: Futura;
+padding-left:5px;
+}
+
+.happinessChart div{
+margin:2px;
+font-family: Futura;
+padding-left: 5px;
+}
+
+.active, .label:not(.inactive) {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.label.inactive {
+  fill: #000;
+  font-size: 12px;
+}
+
+.foreground path.inactive {
+  stroke: #ccc;
+  stroke-opacity: .2;
+  stroke-width: 2px;
+}
+
+.healthChart div{
+margin:2px;
+font-family: Futura;
+padding-left:5px;
+}
+
+.financialChart div:nth-child(1), .happinessChart div:nth-child(1), .healthChart div:nth-child(1) {
+background: #88ED78;
+color:#FFF;
+}
+
+.financialChart div:nth-child(2), .happinessChart div:nth-child(2), .healthChart div:nth-child(2) {
+background: #C7EB6C;
+color:#FFF;
+}
+
+.financialChart div:nth-child(3), .happinessChart div:nth-child(3), .healthChart div:nth-child(3) {
+background: #E9C060;
+color:#FFF;
+}
+
+.financialChart div:nth-child(4), .happinessChart div:nth-child(4), .healthChart div:nth-child(4) {
+background: #E76654;
+color:#FFF;
+}
+
+h1{
+font-family: Futura;
+font-size: 30px;
+color:#FFF;
+}
+
+h2{
+font-family: Futura;
+font-size: 20px;
+color:#FFF;
+}
